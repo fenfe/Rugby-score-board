@@ -1,0 +1,33 @@
+
+    margin-top: 0;
+        
+    ion-content {
+        background:  url(../../assets/imgs/fifi4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute; 
+        margin-top: 0;
+        
+        
+    #btn {
+       position: absolute;
+       bottom: 5%;
+       right: 5%;
+            }
+    }
+.one {
+    background: linear-gradient(100deg,rgb(238, 238, 230), #f6f6f6,#f6f6f6, rgb(230, 230, 230));
+    //border: 1px solid green;
+    margin-top: 0;
+    height: 30%;
+    
+}
+.two {
+    background-color: #dedede;
+    //border: 1px solid red;
+    height: 32%;
+    width: 100%;
+    margin-top: 70%;
+    position: absolute;
+}

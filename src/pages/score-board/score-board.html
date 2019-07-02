@@ -1,0 +1,73 @@
+
+<ion-header >
+  <ion-navbar color="secondary">
+    <ion-title>score-board</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+
+  <div class="head">
+    <div id="flag1" class="flags"></div>
+    <div class="logo"><h1>FOOTBALL </h1>
+      <p>EPS<span id="year">2019</span></p>
+    </div>
+    <div id="flag2"  class="flags"></div>
+  </div>
+
+  <div class="content2">
+
+<div class="flexy">
+    
+    <div id="score" class="one">{{totalScoreTeam1}}</div>
+    <div class="two">TOTAL SCORE</div>
+    <div id="score" class="one"> {{totalScoreTeam2}}</div>
+</div>
+  <div class="flexy">
+    
+    <div class="one"><button (click)="triesFunc()">+ 5</button></div>
+    <div class="two">TRIES</div>
+    <div class="one"><button (click)="triesFunc2()">+ 5</button></div>
+</div>
+
+
+<div class="flexy">
+    
+    <div class="one"> <button (click)="consFunc()">+ 3</button></div>
+    <div class="two">CONS</div>
+    <div class="one"><button (click)="consFunc2()">+ 3</button></div>
+</div>
+
+
+<div class="flexy">
+    
+    <div class="one"><button (click)="pensFunc()">+ 2</button></div>
+    <div class="two">PENS</div>
+    <div class="one"><button (click)="pensFunc2()">+ 2</button></div>
+</div>
+
+
+<div class="flexy">
+    
+    <div class="one"><button (click)="dropGoalFunc()">+ 2</button></div>
+    <div class="two">DROP GOALS</div>
+    <div class="one"><button (click)="dropGoalFunc2()">+ 2</button></div>
+</div>
+
+ <button id="reset" (click)="reset()">reset</button>
+
+
+  </div><!-- end of content2 -->
+
+
+
+
+     
+
+   
+    
+   
+  
+    
+    
+</ion-content>
